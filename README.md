@@ -119,7 +119,7 @@ Visit http://127.0.0.1:8000/
 Kenneth Kiarie Muketha
 📫 kennethkiarie555@gmail.com
 📞 +254 746 155 994
-🔗 LinkedIn
+🔗 LinkedIn: https://www.linkedin.com/in/kenneth-kiarie
 
 📄 License
 MIT — open for use and contribution.

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Job Scraper</title>
+</head>
+
+<body>
+    <h1>Enter Job Search URL</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <label>Job URL:</label><br>
+        <input type="text" name="url" size="80"><br><br>
+        <label>Number of Jobs:</label><br>
+        <input type="number" name="count" value="5"><br><br>
+        <button type="submit">Scrape Jobs</button>
+    </form>
+</body>
+
+</html>

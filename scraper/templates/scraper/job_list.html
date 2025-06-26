@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scraped Jobs</title>
+</head>
+
+<body>
+    <h1>Job Listings</h1>
+    <a href="/">Scrape More Jobs</a><br><br>
+    <ul>
+        {% for job in jobs %}
+        <li>
+            <strong>{{ job.title }}</strong> at {{ job.company }} <br>
+            {{ job.location }}<br>
+            <a href="{{ job.source_url }}" target="_blank">View Job</a>
+            <hr>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
